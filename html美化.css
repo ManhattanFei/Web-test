@@ -1,0 +1,140 @@
+/* 全局美化 */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f7fa;
+}
+
+/* 标题容器美化 */
+div > h1, div > h2, div > h3, div > h4, div > h5, div > h6 {
+  padding: 12px;
+  border-radius: 8px;
+  margin: 15px 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* 段落内容美化 */
+p, blockquote {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  margin: 20px 0;
+}
+
+blockquote {
+  border-left: 4px solid #4a90e2;
+  font-style: italic;
+  color: #555;
+}
+
+/* 图片和链接美化 */
+a {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 10px;
+  background-color: #4a90e2;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: #3a7bc8;
+}
+
+img {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 10px;
+  border: 1px solid #eee;
+}
+
+/* 文字效果容器美化 */
+div[style*="background-color:powderblue"] {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 25px 0;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+strong, em, mark, del, ins, sup, sub {
+  margin: 0 5px;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+/* 表格美化 */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+tr:hover {
+  background-color: #f1f5f9;
+}
+
+/* 列表美化 */
+ul {
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+li {
+  padding: 8px 0;
+}
+
+/* 多媒体容器美化 */
+iframe, video, audio {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 15px 0;
+  background: black;
+}
+
+/* 表单区域美化 */
+div[style*="background-color: tomato"] {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 25px 0;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  background-color: white;
+}
+
+input[type="checkbox"], input[type="file"] {
+  margin: 8px 5px;
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+}
